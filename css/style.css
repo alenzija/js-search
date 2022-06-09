@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  margin: 5px;
+}
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.movies-item {
+  background-color: antiquewhite;
+}
+
+.movies-item__img {
+  width: 300px;
+  height: 450px;
+  object-fit: contain;
+}
+
+.movies-item__title {
+  width: 300px;
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 5px;
+}
