@@ -1,4 +1,4 @@
-const url = "http://www.omdbapi.com/?apikey=9aa0be00";
+const url = "https://www.omdbapi.com/?apikey=9aa0be00";
 
 import { movies, searchInput, addMovieToList } from "./dom.js";
 import { getData } from "./fetch.js";
